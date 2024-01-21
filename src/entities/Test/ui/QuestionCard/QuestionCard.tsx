@@ -54,6 +54,7 @@ const QuestionCard = (props: QuestionCardProps) => {
                         name="answer"
                         value={item.text}
                         label={item.text}
+                        checked={item.id === currentQuestion.userAnswer}
                         onChange={(value) => onCheckedHandler(item.id)}
                     />
                 ))}

@@ -27,11 +27,11 @@ const Result = ((props: CounterProps) => {
                 % правильных ответов
             </div>
             <div className={classNames(cls.counter, {}, [cls.correct])}>
-                Правильно отвечено:
+                Правильных ответов:
                 {correctCount}
             </div>
             <div className={classNames(cls.counter, {}, [cls.uncorrect])}>
-                Неправильно отвечено:
+                Неправильных ответов:
                 {uncorrectCount}
             </div>
         </div>

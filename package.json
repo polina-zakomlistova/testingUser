@@ -3,7 +3,7 @@
     "version": "0.1.0",
     "description": "",
     "main": "index.js",
-    "homepage": "https://gitname.github.io/testingUser",
+    "homepage": "https://polina-zakomlistova.github.io/testingUser",
     "devDependencies": {
         "@mobx-devtools/tools": "^0.0.4",
         "@testing-library/jest-dom": "^5.17.0",

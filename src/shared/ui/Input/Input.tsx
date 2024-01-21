@@ -43,6 +43,7 @@ export const Input = memo((props: InputProps) => {
         size,
         theme,
         labelPosition,
+        ...otherProps
     } = props;
 
     const classes: string[] = [cls[size], cls[theme], className];
@@ -77,6 +78,7 @@ export const Input = memo((props: InputProps) => {
                 name={name}
                 value={value}
                 onChange={onChangeHandler}
+                {...otherProps}
             />
         </div>
     );

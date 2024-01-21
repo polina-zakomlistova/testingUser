@@ -83,7 +83,7 @@ export default class Test implements ITestStore {
     };
 
     prevQuestion = () => {
-        if (this.currentQuestionIndex - 1 > 0) {
+        if (this.currentQuestionIndex - 1 >= 0) {
             this.currentQuestionIndex--;
         }
     };

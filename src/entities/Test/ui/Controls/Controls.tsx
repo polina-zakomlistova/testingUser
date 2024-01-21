@@ -2,10 +2,10 @@ import { classNames, Mods } from 'shared/lib/classNames/classNames';
 import { observer } from 'mobx-react-lite';
 import useStore from 'features/hooks/useStore';
 import { ReactNode } from 'react';
-import cls from './Controls.module.scss';
 import RestartButton from '../Buttons/RestartButton/RestartButton';
 import FinishButton from '../Buttons/FinishButton/FinishButton';
 import NextButton from '../Buttons/NextButton/NextButton';
+import cls from './Controls.module.scss';
 
 interface ControlsProps {
     className?: string;
